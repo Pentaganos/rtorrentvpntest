@@ -65,3 +65,5 @@ COPY root/ /
 # ports and volumes
 EXPOSE 80
 VOLUME /config /downloads
+
+CMD ["sh", "/scripts/start.sh"]
